@@ -1,7 +1,16 @@
 # pytorch_for_comfyui_on_old_gpu
 Trivially easy solution to "PyTorch no longer supports this GPU because it is too old" error for Stable Diffusion ComfyUI windows portable nvidia distribution.
 
-!!! THE SOLUTION WORKS ONLY FOR PRE-RTX GPUs THAT SUPPORT CUDA 6.1 LIKE GTX 1080, GTX 1060 TI, GTX 1050 TI, ETC. !!!
+!!! THE SOLUTION WORKS ONLY FOR PRE-RTX GPUs THAT SUPPORT CUDA 6.1 !!!
+Such as:
+- GeForce GTX 1080 Ti
+- GeForce GTX 1080
+- GeForce GTX 1070 Ti
+- GeForce GTX 1070
+- GeForce GTX 1060
+- GeForce GTX 1050
+- NVIDIA TITAN Xp
+- NVIDIA TITAN X
 
 ----- THE GUIDE -----
 
