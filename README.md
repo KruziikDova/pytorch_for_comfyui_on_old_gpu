@@ -31,7 +31,7 @@ Manual:
 4. Press "edit" or choose to edit it with your favorite notepad software.
 5. Look for this line:
    "..\python_embeded\python.exe -s -m pip install --upgrade torch torchvision torchaudio  --extra-index-url https://download.pytorch.org/whl/cu129 -r ../ComfyUI/requirements.txt pygit2"
-6. Change "upgrade" to "force_reinstall".
+6. Change "upgrade" to "force-reinstall".
 7. Change "cu129" to "cu126".
 8. The line should look like this:
    "..\python_embeded\python.exe -s -m pip install --force-reinstall torch torchvision torchaudio  --extra-index-url https://download.pytorch.org/whl/cu126 -r ../ComfyUI/requirements.txt pygit2"
